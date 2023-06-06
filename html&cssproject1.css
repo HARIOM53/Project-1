@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.logo img {
+    height: 50px;
+}
+nav{
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    color: rgb(252, 207, 6);
+}
+.btn {
+    text-align: right;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-right: 20px;
+    background-color: #fc7d7d;
+    text-decoration: none;
+    font-size: 20px;
+}
+section {
+   text-align: center;
+}
+section h1 {
+    font-size: 110px;
+    margin-bottom: 20px;
+    color: rgb(252, 207, 6);
+    padding: 0 100px;
+}
+.btn1 {
+    padding: 20px 60px;
+    background-color: #fc7d7d;
+    font-size: 20px;
+}
+.scroll {
+    text-align: end;
+}
